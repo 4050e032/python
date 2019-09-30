@@ -51,11 +51,26 @@ for dd in range(5):
    print(dd)
 ```
 ```
-答案是:0
+答案是:
+0
 1
 2
 3
 4
+```
+```
+
+for dd in 'fucker':
+   print(dd)
+```
+```
+答案是:
+f
+u
+c
+k
+e
+r
 ```
 ##### 程式閱讀題:下列程式執行後會印出什麼？
 ```
@@ -71,7 +86,10 @@ print(list(list4))
 
 ```
 ```
-答案是:
+答案是:[1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 3, 5, 7, 9]
+[10, 8, 6, 4, 2]
 ```
 # for 迴圈技術
 
@@ -85,9 +103,10 @@ my_numbers = []
 
 for number in numbers:
     if (number % 2 != 0): 
-　　my_numbers.append(number)
+　　    my_numbers.append(number)
 
-print(my_numbers)
+my_numbers
+答案是:[21, 35, 1, 7, 3, 9]
 ```
 ##### 程式設計題:1+2+3+....n的計算
 
