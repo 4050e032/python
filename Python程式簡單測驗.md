@@ -57,9 +57,22 @@ while index < 1:
 	print("Hello, 龍聖")
 ```
 ```
+Hello, 龍聖
+Hello, 龍聖
+Hello, 龍聖
+Hello, 龍聖
+.
+.
+.
+無限loop
+```
+```
 index = 0
 while index > 1:
 	print("Hello, 龍聖")
+```
+```
+無值
 ```
 
 ### 程式設計題
